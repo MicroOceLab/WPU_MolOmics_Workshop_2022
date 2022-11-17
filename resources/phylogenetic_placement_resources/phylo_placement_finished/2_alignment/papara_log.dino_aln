@@ -1,0 +1,18 @@
+papara called as:
+papara -t 1_init_data/3_ref_tree.tre -s 1_init_data/2_ref_aln.fas -q 1_init_data/OTU_representatives_dinoflagellates.upper -n dino_aln 
+references container instantiated as: papara::references<pvec_pgap, sequence_model::tag_dna>
+edges: 475
+scoring scheme: -3 -1 2 -3
+papara_core version 2.5
+start scoring, using 1 threads
+11.8644% done. 4.52315 gncup/s, 4.23062 tpili (short: 4.52315, 4.23062)
+25.4237% done. 4.52536 gncup/s, 4.22877 tpili (short: 4.52757, 4.22691)
+38.9831% done. 4.5242 gncup/s, 4.22992 tpili (short: 4.52191, 4.23223)
+52.5424% done. 4.52532 gncup/s, 4.2289 tpili (short: 4.52869, 4.22583)
+66.1017% done. 4.50238 gncup/s, 4.25004 tpili (short: 4.41289, 4.33462)
+79.661% done. 4.47305 gncup/s, 4.2773 tpili (short: 4.33197, 4.4136)
+93.2203% done. 4.4479 gncup/s, 4.30089 tpili (short: 4.30276, 4.4424)
+thread 0: 4.38628 gncup/s
+scoring finished: 79.6417
+generating best scoring alignments
+SUCCESS 85.1172

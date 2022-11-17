@@ -1,0 +1,53 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+Found a total of 239 taxa in tree file 1_init_data/3_ref_tree.tre
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 5382 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 74.56%
+
+RAxML likelihood-based placement algorithm
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+Partition: 0
+Alignment Patterns: 5382
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+Base frequencies: ML estimate
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -f v -s 2_alignment/papara_alignment.dino_aln -t 1_init_data/3_ref_tree.tre -m GTRGAMMAX -n dino_epa --epa-accumulated-threshold=0.99 
+
+
+RAxML placement algorithm: You provided a reference tree with 239 taxa; alignmnet has 508 taxa
+269 query taxa will be placed using maximum likelihood
+
+RAxML Evolutionary Placement Algorithm
